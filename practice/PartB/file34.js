@@ -1,5 +1,6 @@
-function response(){
+function response({name,email,role}){
     console.log(user);
+    console.log(email);
 }
 
 const user = {
