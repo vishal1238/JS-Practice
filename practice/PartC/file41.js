@@ -10,4 +10,4 @@ function sendConfirmation(){
 //call back all
 makePayment()
 .then((sendConfirmation))
-.catch.((err));
+.catch((err));

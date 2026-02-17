@@ -11,10 +11,6 @@ function f2() {
     console.log("This is f2 function");
 }
 
-f1()
-.then(() => f2())
-.catch((err) => console.log(err))
-
 async function main() {
     await f1()
     f2()
